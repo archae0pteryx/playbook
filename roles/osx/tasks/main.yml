@@ -1,0 +1,8 @@
+---
+- name: "Homebrew"
+  community.general.homebrew:
+    name: "{{ brews }}"
+    state: present
+  register: homebrew
+
+- debug: msg="{{ homebrew.msg }}"

@@ -1,0 +1,8 @@
+---
+brews:
+  - git
+  - nmap
+
+casks:
+  - iterm2
+
